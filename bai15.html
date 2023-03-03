@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+            padding-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>Contact Us</h2>
+        <fieldset>
+            <legend>Your message</legend>
+            <table>
+                <tr>
+                    <td><label for="emailTo">To</label></td>
+                    <td><input type="text" name="txtTo" readonly="" id="emailTo" size="20" value="Exxample Cafe"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="YourEmail">Your email</label></td>
+                    <td><input type="email" name="txtEmail" id="YourEmail" size="20" maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td><label for="Mess">Message</label></td>
+                    <td><textarea name="txtMess" id="Mess" cols="50" rows="10"></textarea></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>How you found us</legend>
+            <table>
+                <tr>
+                    <td><label for="howHear">How did you hear of us</label></td>
+                    <td><select name="" id="howHear">
+                        <option value="text">Google</option>
+                        <option value="text">Message</option>
+                        <option value="text">Mail</option>
+                    </select></td>
+
+                </tr>
+
+                <tr>
+                    <td><label for="chkNews">Newsletter</label></td>
+                    <td><input type="checkbox" id="chkNews" checked>Ensure this box is checked if you would like to receive email update</td>
+                </tr>
+            </table>
+        </fieldset>
+        <input type="submit" value="Send Message">
+
+    </div>
+</body>
+
+</html>
