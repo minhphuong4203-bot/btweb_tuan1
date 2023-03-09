@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .bai16{
+        width: 400px;
+        height: 500px;
+        border: 1px solid black;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        padding-left: 5px;
+    }
+
+    form{
+        padding: 0 0 0 10px ;
+    }
+</style>
+
+<body>
+    <div class="bai16">
+        <form action="" method="post">
+                <h1>Travel reservation form</h1>
+                <h3>* denotes mandotory</h3>
+                <br>
+                <label for="txtName">FullName*:</label> <br>
+                <input type="text" id="txtName" name="content" size="30" maxlength="30" placeholder="FirstName LastName"><br>
+                <label for="txtEmail">Email address*:</label> <br>
+                <input type="email" id="txtEmail"  name="content" size="30" maxlength="30" placeholder="Email_address"> <br>
+
+                <select name="content" id=""> <label for=""> Select Tour Package* </label>
+                    <option value="">Goa</option>
+                    <option value="">Duong</option>
+                    <option value="">Tien</option>
+
+                </select>
+
+                <br>
+                <label for="txtDate">Arrival date*:</label> <br>
+                <input type="text" id="txtDate" name="content" size="30" maxlength="30" placeholder="m/d/y"> <br>
+                
+                <label for="txtNumberPerson">Number of persons*:</label>  <br>
+                <input type="text" id="txtNumberPerson" name="content" size="30" maxlength="30" placeholder="UNKNOWN_TYPE"><br>
+
+                <label for="">What would you want to avial?*</label>
+                <br>
+                <label for="chbQuestions1">Boarding</label> 
+                <input type="checkbox" id="chbQuestions1" name="contentQuestion" class="chb1" > <br>
+                <label for="chbQuestions2">Fooding</label> 
+                <input type="checkbox" id="chbQuestions2" name="contentQuestion" class="chb1"> <br>
+                <label for="chbQuestions3">Sight seeing</label> 
+                <input type="checkbox" id="chbQuestions3" name="contentQuestion" class="chb1">
+                <br>
+    
+                <label for="">Term and conditions*</label> <br>
+                <input type="radio" id="rdQuestion1" name="questioncondition" checked>
+                <label for="rdQuestion1">I agree</label>
+                <input type="radio" id="rdQuestion1" name="questioncondition" >
+                <label for="rdQuestion1">I disagree</label> 
+                <br>
+
+                <input type="button" value="Complete reservation" id="btnComplete" name="content">
+        </form>
+    </div>
+</body>
+</html>
