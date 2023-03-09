@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .bai15-b{
+        width: 500px;
+        height: 590px;
+        border: 1px solid black;
+        box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        padding-top: 10px;
+    }
+
+</style>
+
+<body>
+    <div class="bai15-b">
+        <fieldset>
+            <legend>Contact Information</legend>
+            <table>
+                <tr>
+                    <td> <label for="1stName">First name:</label> </td>
+                    <td><input type="text" id="1stName" size="30" maxlength="30"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="LastName">Last name:</label> </td>
+                    <td><input type="text" id="LastName" size="30" maxlength="30"></td>
+                </tr>
+
+                <tr>
+                    <td> <label for="mail">First name:</label> </td>
+                    <td><input type="email" id="mail" size="30" maxlength="30"></td>
+                </tr>
+
+            </table>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Competition Question</legend>
+            <p>How tall is the Eiffel Tower in Paris,France?</p>
+                <input type="radio" id="choice1" name="answer">
+                <label for="choice1">584 ft</label> <br>
+                <input type="radio" id="choice2" name="answer">
+                <label for="choice2">784 ft</label> <br>
+                <input type="radio" id="choice3" name="answer">
+                <label for="choice3">984 ft</label> <br>
+                <input type="radio" id="choice4" name="answer">
+                <label for="choice4">1184 ft</label> <br>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Tiebreaker Question</legend>
+            <p>In 25 words or less, say why you would like to win $10,000:</p>
+            <textarea name="" id="" cols="40" rows="10"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Enter cometition</legend>
+            <input type="button" value="Enter Competition">
+        </fieldset>
+
+    </div>
+</body>
+</html>
