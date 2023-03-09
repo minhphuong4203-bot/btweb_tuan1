@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+.bai17{
+    width: 660px;
+    height: 870px;
+    background-color: #feba68;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    }
+
+h2{
+    display: block;
+    text-align: center;
+}
+
+.des{
+    display: block;
+    padding: 0px 10px;
+}
+
+li{
+    list-style-type:none ;
+}
+.txtAnswer{
+    margin-left: 15px;
+}
+.btnForm{
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+</style>
+
+
+<body>
+    
+    <div class="bai17">
+            <h2>Survey Form</h2>
+            <p class="des">If you are interested in purchasing one or more of our product, before ordering please complete some or all of the following survey for our marketing department. Answering any question is optional, and all information will be kept strictly confidential.
+                Thank you very much for your time! </p>
+
+    <form action="" method="post">
+            <ol class="txtQuestion">1. What is your name?
+                <li class="txtAnswer">
+                    <input type="text" size="30" maxlength="30" >
+                </li>
+            </ol>
+
+            <ol class="txtQuestion">2. What is your date of birth? 
+                <li class="txtAnswer">
+                        <label for="txtThang">Month</label>
+                        <select name="" id="">
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">Octorber</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
+                        </select>
+
+                        <label for="txtNgay">Date</label>
+                        <select name="" id="">
+                            <option value="">1</option>
+                            <option value="">2</option>
+                            <option value="">3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            <option value="">11</option>
+                            <option value="">12</option>
+                            <option value="">13</option>
+                            <option value="">14</option>
+                            <option value="">15</option>
+                            <option value="">16</option>
+                            <option value="">17</option>
+                            <option value="">18</option>
+                            <option value="">19</option>
+                            <option value="">20</option>
+                            <option value="">21</option>
+                            <option value="">22</option>
+                            <option value="">23</option>
+                            <option value="">24</option>
+                            <option value="">25</option>
+                            <option value="">26</option>
+                            <option value="">27</option>
+                            <option value="">28</option>
+                            <option value="">29</option>
+                            <option value="">30</option>
+                            <option value="">31</option>
+                        </select>
+
+                        <label for="txtTuoi">Year</label>
+                        <input type="text" id="txtTuoi" size="3" maxlength="5">
+                </li>
+            </ol>
+
+            <ol  class="txtQuestion">
+                <li class="txtAnswer">3. What is your mailing address (if you like to have a hard copy of our catalog sent to you)? <br>
+                        <textarea name="" id="txtMail" cols="50" rows="5">Number/P.O.Box/Route:  
+Street/Avenue/Road:         
+City:                   
+State/Zip:
+                        </textarea>
+            </ol>
+
+            <ol class="txtQuestion">4. What is your email address?
+                <li class="txtAnswer"><input type="email"></li>
+            </ol>
+            
+            <ol class="txtQuestion">5. Have you viewed our online product catalog?
+                <li class="txtAnswer">
+                    <input type="radio" name="answer5" id="yes5" checked>
+                    <label for="yes5">Yes</label>
+                    <input type="radio" name="answer5" id="no5">
+                    <label for="yes5">No</label>
+
+                </li>
+            </ol>
+
+            <ol class="txtQuestion">6. What is your mailing address
+                (if you would like to have a hard copy of our
+                catalog sent to you)?
+                <li class="txtAnswer">
+                    <input type="checkbox" name="answer6" id="answer6-1">
+                    <label for="answer6-1">VCR</label> <br>
+
+                    <input type="checkbox" name="answer6" id="answer6-2">
+                    <label for="answer6-2">Big Screen TV</label> <br>
+
+                    <input type="checkbox" name="answer6" id="answer6-3">
+                    <label for="answer6-3">Audio Equipment</label> <br>
+
+                    <input type="checkbox" name="answer6" id="answer6-4">
+                    <label for="answer6-4">Video Equipment</label> <br>
+
+                    <input type="checkbox" name="answer6" id="answer6-5">
+                    <label for="answer6-5">Camera Equipment</label><br>
+
+                    <input type="checkbox" name="answer6" id="answer6-6" checked>
+                    <label for="answer6-6">Other</label>
+                    <input type="text" name="answer6" id="answer6-6" value="Please List:" size="50" maxlength="50">
+
+                </li>
+            </ol>
+
+            <ol class="txtQuestion">
+                7. Do you have any questions, comments or
+                suggestions before proceeding to the Order Form?
+            <li class="txtAnswer">
+                <textarea name="" id="txtMail" cols="50" rows="7">Your Input:
+                </textarea>
+            </li>
+            </ol>
+
+            <div class="btnForm">
+                <input type="button" id="btnSend" value="Send Form">
+                <input type="button" id="btnClear" value="Clear Form">
+            </div>
+    </form>
+</div>
+</body>
+</html>
